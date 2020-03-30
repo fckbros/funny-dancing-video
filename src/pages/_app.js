@@ -5,12 +5,12 @@ import { ThemeProvider, CSSReset, ColorModeProvider } from '@chakra-ui/core'
 import theme from '../theme'
 
 class App extends NextApp {
-  render() {
+  render () {
     const { Component } = this.props
     return (
       <ThemeProvider theme={theme}>
-        <CSSReset />
-        <ColorModeProvider>
+        <ColorModeProvider value='dark'>
+          <CSSReset />
           <Component />
         </ColorModeProvider>
       </ThemeProvider>

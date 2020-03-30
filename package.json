@@ -11,9 +11,28 @@
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "d3": "^5.15.0",
     "emotion-theming": "^10.0.27",
+    "lodash": "^4.17.15",
     "next": "^9.3.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "standard": "^14.3.3"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [],
+    "plugins": [],
+    "ignore": [
+      "**/node_modules/",
+      "**/ios/",
+      "**/android/",
+      "**/dist/",
+      "**/out/"
+    ]
   }
 }
