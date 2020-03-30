@@ -13,6 +13,7 @@
     "@emotion/styled": "^10.0.27",
     "d3": "^5.15.0",
     "emotion-theming": "^10.0.27",
+    "formik": "^2.1.4",
     "lodash": "^4.17.15",
     "next": "^9.3.2",
     "react": "^16.13.1",
