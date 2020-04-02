@@ -348,7 +348,7 @@ const Index = () => {
         )}
       </Formik>
       <style jsx>{`
-        .main-svg {
+        :global(.main-svg) {
           border: 1px solid;
         }
         path {
