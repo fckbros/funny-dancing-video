@@ -6,12 +6,12 @@ import theme from '../theme'
 
 class App extends NextApp {
   render () {
-    const { Component } = this.props
+    const { Component, pageProps } = this.props
     return (
       <ThemeProvider theme={theme}>
         <ColorModeProvider value='dark'>
           <CSSReset />
-          <Component />
+          <Component {...pageProps} />
         </ColorModeProvider>
       </ThemeProvider>
     )
